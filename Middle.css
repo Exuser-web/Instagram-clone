@@ -1,0 +1,179 @@
+.middlehome{
+    width: 100%;
+    /* border: 1px solid; */
+    padding:  0px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.story{
+    width: 630px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    /* border: 1px solid; */
+    overflow: auto;
+}
+.story::-webkit-scrollbar{
+    display: none;
+}
+.storypart{
+    width: 66px;
+    height: 66px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    padding: 2px;
+    border: 2px solid purple;
+}
+.img{
+    width: 100%;
+    height: 56px;
+    border-radius: 100%;
+}
+.profilename{
+    font-size: 10px;
+}
+
+/* ------------------ post------------- */
+
+.postsection{
+    /* border: 1px solid; */
+    width: 60%;
+}
+.post{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #d2c9c9;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.postinfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0px;
+}
+.postInfoImg{
+    width: 40px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 70%;
+    
+}
+.postUsername{
+    font-size: 12px;
+    font-weight: 600;
+}
+.timeinfo{
+    color: #999999;
+    font-size: 14px;
+}
+.pImg{
+    width: 100%;
+}
+.iconblock{
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.lefticon{
+    display: flex;
+    gap: 15px;
+}
+.like{
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+}
+.like1{
+     width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 3%;
+
+}
+.images{
+    position: relative;
+}
+.likesection{
+    width: 100%;
+}
+.nolike{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 35px;
+}
+.about{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+}
+.postname{
+    font-size: 14px;
+    font-weight: 500;
+}
+.comment{
+    font-size: 14px;
+    /* color: #999999; */
+    margin-left: 10px;
+}
+.nocomment{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #999999;
+}
+.addcomment{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #999999;
+}
+
+/* -------------- */
+.mobileTop{
+    display: none;
+}
+
+@media screen  and (min-width:320px) and (max-width:920px){
+     .middlehome{
+    width: 100%;
+    /* border: 1px solid; */
+    padding:  0px 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .story{
+    width: 100vw;
+  }
+  .postsection{
+    width: 100%;
+  }
+  .mobileTop{
+    width: 100%;
+    display: inline;
+    padding: 0 20px;
+  }
+  .instLogoMobile{
+    width: 103px;
+    margin: 0 20px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+  }
+}
